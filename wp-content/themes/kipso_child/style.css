@@ -1,0 +1,49 @@
+/*
+Theme Name: Kipso Child
+Description: Child theme for the Kipso themes
+Author: gaviathemes
+Template: kipso
+*/
+
+.get-free-course .title, 
+.apply-for-teaching .title {
+   background: #792d2f;
+}
+
+.get-free-course .title::after, .apply-for-teaching .title::after {
+   border-top-color: #792d2f;
+}
+
+.course-block .entry-content .content-top {
+    min-height: 80px;
+}
+
+input[type*="submit"]:not(.fa) {
+    background: #792d2f;
+}
+
+.custom-breadcrumb .breadcrumb-container-inner .heading-title {
+    font-size: 41px;
+    color: #fff;
+}
+
+.custom-breadcrumb .breadcrumb li a {
+    color: #fff;
+}
+
+.custom-breadcrumb .breadcrumb li {
+    color: #fff;
+}
+
+
+.widget-body .course-meta-field a,
+.course-review,
+.single.single-post .post-thumbnail,
+#dpsp-content-top,
+.dpsp-content-wrapper {
+   display: none !important;
+}
+/* 
+.cursos-modulares .entry-title a {
+    color: #333 !important;
+} */
